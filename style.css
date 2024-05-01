@@ -1,0 +1,40 @@
+header {
+    display:block;
+    unicode-bidi: isolate;
+}
+
+header img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 150px;
+    
+
+}
+
+body {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#sotto-logo {
+    background-color: #f7ffb5;
+    width: 100vw;
+    height: 50px;
+    align-content: center;
+    border-top: solid yellow 2px;
+}
+
+.sezione-principale {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div img {
+    width: 300px;
+}
