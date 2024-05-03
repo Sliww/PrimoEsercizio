@@ -18,23 +18,82 @@ body {
     text-align: center;
     justify-content: center;
     align-content: center;
+    margin: 0;
 }
 
 #sotto-logo {
-    background-color: #f7ffb5;
+    background-color: #fffede;
     width: 100vw;
     height: 50px;
     align-content: center;
     border-top: solid yellow 2px;
 }
 
-.sezione-principale {
-    display: block;
-    justify-content: center;
-    align-items: center;
+main {
+    width: 50%;
+    margin:auto;
 
 }
 
-div img {
-    width: 300px;
+main img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h5 {
+    margin-top: 8px;
+    color: gray;
+}
+
+.prima-sezione p {
+    text-align: left;
+}
+
+.prima-sezione span {
+    color: rgb(184, 0, 0);
+    text-align: left;
+    font-style: bold;
+}
+
+.prima-sezione div {
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-left: 1px solid yellow;
+    padding-left: 1rem;
+    margin:auto;
+    
+}
+
+.prima-sezione a {
+    text-align: left;
+}
+
+article h2 {
+    font-weight: lighter;
+    text-align: left;
+    border-bottom: 1px solid rgb(42, 180, 254);
+    padding-bottom: 1rem;
+}
+
+article h3 {
+    text-align: left;
+}
+
+article ul {
+    text-align: left;
+    line-height: 2rem;
+    font-size: 17px;
+}
+
+article ol {
+    text-align: left;
+    font-size: 17px;
+
+}
+
+article p {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 17px;
 }
